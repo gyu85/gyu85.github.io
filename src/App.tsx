@@ -16,7 +16,7 @@ function App() {
         styles={{
           '@font-face': {
             fontFamily: 'NotoSans',
-            src: `url(${NotoSansKRRegularWoff}) format('woff')`,
+            src: `local(※), url(${NotoSansKRRegularWoff}) format('woff')`,
             fontWeight: 400
           }
         }}
@@ -25,7 +25,7 @@ function App() {
         styles={{
           '@font-face': {
             fontFamily: 'NotoSans',
-            src: `url(${NotoSansKRLightWoff}) format('woff')`,
+            src: `local(※), url(${NotoSansKRLightWoff}) format('woff')`,
             fontWeight: 300
           }
         }}
@@ -34,7 +34,7 @@ function App() {
         styles={{
           '@font-face': {
             fontFamily: 'NotoSans',
-            src: `url(${NotoSansKRMediumWoff}) format('woff')`,
+            src: `local(※), url(${NotoSansKRMediumWoff}) format('woff')`,
             fontWeight: 500
           }
         }}
@@ -43,7 +43,7 @@ function App() {
         styles={{
           '@font-face': {
             fontFamily: 'NotoSans',
-            src: `url(${NotoSansKRBoldWoff}) format('woff')`,
+            src: `local(※), url(${NotoSansKRBoldWoff}) format('woff')`,
             fontWeight: 700
           }
         }}
