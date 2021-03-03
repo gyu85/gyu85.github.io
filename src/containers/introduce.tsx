@@ -1,3 +1,3 @@
-import Introduce from '../components/introduce';
+import Introduce from 'components/introduce';
 
 export default Introduce;
