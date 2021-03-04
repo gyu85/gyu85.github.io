@@ -4,19 +4,14 @@ import { mediaQuery } from 'utils/validate';
 
 export interface IThemeState {
   colors: {
-    background_default: string;
+    background_white: string;
     background_blue_dark: string;
     background_gray: string;
     background_gray_dark: string;
     background_gray_dark2: string;
 
-    brand_violet: string;
-    brand_yellow: string;
-    brand_cyan: string;
-
     black: string;
-
-    heather: string;
+    black_american_river: string;
 
     blue: string;
     blue_cold: string;
@@ -24,25 +19,13 @@ export interface IThemeState {
     blue_light: string;
     blue_minsk: string;
     blue_solitude: string;
+    blue_electron: string;
 
     pink: string;
 
     red: string;
     red_light: string;
     redish_magenta: string;
-
-    violet: string;
-    violet_light: string;
-    violet2: string;
-
-    yellow: string;
-    yellow2: string;
-    yellow_light: string;
-    yellow20: string;
-
-    lavender: string;
-    cyan_bold: string;
-    blush_cyan: string;
 
     gray100: string;
     gray95: string;
@@ -66,9 +49,6 @@ export interface IThemeState {
     white10: string;
     white31: string;
     white72: string;
-
-    white_titan: string;
-    white_ghost: string;
   };
   transition: {
     sec: string;
@@ -93,19 +73,14 @@ const ThemeDispatchContext = createContext<ThemeDispatch | undefined>(
 const getInitialValues = (): IThemeState => {
   return {
     colors: {
-      background_default: '#FFF',
+      background_white: '#FFF',
       background_blue_dark: '#2d2b6b',
       background_gray: '#f9faf9',
       background_gray_dark: '#f5f6f7',
       background_gray_dark2: '#f5f5f5',
 
-      brand_violet: '#9b0182',
-      brand_yellow: '#fccf00',
-      brand_cyan: '#36bad1',
-
       black: '#252525',
-
-      heather: '#adb5bd',
+      black_american_river: '#636e72',
 
       blue: '#22a5f7',
       blue_cold: '#2c2d64',
@@ -113,25 +88,13 @@ const getInitialValues = (): IThemeState => {
       blue_light: '#6055D4',
       blue_minsk: '#323385',
       blue_solitude: '#F4F4F7',
+      blue_electron: '#0984e3',
 
       pink: '#f55656',
 
       red: '#f55656',
       red_light: '#f75552',
       redish_magenta: '#d5b3d0',
-
-      violet: '#9c2088',
-      violet_light: '#f9eef7',
-      violet2: '#ad4e9a',
-
-      yellow: '#fdd000',
-      yellow2: '#fdb200',
-      yellow_light: '#ffe796',
-      yellow20: 'rgba(253, 208, 0, 0.2)',
-
-      lavender: '#ebebfe',
-      cyan_bold: '#21b7cf',
-      blush_cyan: '#8ac7d1',
 
       gray100: '#151b2c',
       gray95: '#212737',
@@ -154,10 +117,7 @@ const getInitialValues = (): IThemeState => {
       white05: 'rgba(255,255,255,0.05)',
       white10: 'rgba(255,255,255,0.1)',
       white31: 'rgba(255,255,255,0.31)',
-      white72: 'rgba(255,255,255,0.72)',
-
-      white_titan: '#f6f6ff',
-      white_ghost: '#fafaff'
+      white72: 'rgba(255,255,255,0.72)'
     },
     transition: {
       sec: '0.36s',
