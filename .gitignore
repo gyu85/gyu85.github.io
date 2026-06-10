@@ -1,0 +1,12 @@
+# Hugo가 자동으로 생성하는 웹사이트 빌드 결과물 (GitHub Actions가 대신 빌드하므로 제외)
+/public/
+/resources/
+
+# 로컬에서 테스트할 때 생기는 임시 캐시 파일
+/.hugo_build.json
+/assets/jsconfig.json
+hugo_stats.json
+
+# 운영체제(OS)가 만드는 시스템 쓰레기 파일
+.DS_Store
+Thumbs.db

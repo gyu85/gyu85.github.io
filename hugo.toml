@@ -1,0 +1,23 @@
+baseURL = 'https://gyu85.github.io/'
+locale = 'ko-kr'
+title = 'gyu.dev.blog'
+theme = 'gyu-hugo-PaperMod'
+hasCJKLanguage = true
+
+[params]
+    env = "production"
+    title = "내 개발 & 일상 노트"
+    description = "조용히 기록하는 개인 공간"
+    defaultTheme = "auto"
+
+[[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 10
+
+
+[[menu.main]]
+    name = "개발 기록"
+    url = "/posts/"
+    weight = 20
+
