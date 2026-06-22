@@ -1,8 +1,13 @@
 baseURL = 'https://gyu85.github.io/'
 locale = 'ko-kr'
-title = 'gyu.dev.blog'
+title = 'MyNoteBooks'
 theme = 'gyu-hugo-PaperMod'
 hasCJKLanguage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
 
 [params]
     env = "production"
@@ -11,13 +16,7 @@ hasCJKLanguage = true
     defaultTheme = "auto"
 
 [[menu.main]]
-    name = "about"
-    url = "/about/"
-    weight = 10
-
-
-[[menu.main]]
     name = "개발 기록"
-    url = "/posts/"
-    weight = 20
+    url = "/devs/"
+    weight = 10
 
